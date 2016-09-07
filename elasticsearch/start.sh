@@ -1,4 +1,4 @@
-#!/bin/bash -xue
+#!/bin/bash
 
 docker run \
     --net host \
@@ -10,4 +10,4 @@ docker run \
 
 #    -p 9200:9200 \
 
-docker rm vince_elasticsearch
+# docker rm vince_elasticsearch
